@@ -46,33 +46,27 @@ table th {
   border: 1px solid rgb(200, 200, 200, 0.05);
 }
 
-table thead tr>th:nth-last-child(1),
-table tbody tr>td:nth-last-child(1) {
+.purple {
   color : rgb(183,123,226);
 }
 
-table thead tr>th:nth-last-child(2),
-table tbody tr>td:nth-last-child(2) {
+.blue {
   color : rgb(0,143,190);
 }
 
-table thead tr>th:nth-last-child(3),
-table tbody tr>td:nth-last-child(3) {
+.lightblue {
   color : rgb(147,241,223);
 }
 
-table thead tr>th:nth-last-child(4),
-table tbody tr>td:nth-last-child(4) {
+.brick {
   color : rgb(194,109,77);
 }
 
-table thead tr>th:nth-last-child(5),
-table tbody tr>td:nth-last-child(5) {
+.green {
   color : rgb(111,109,77);
 }
 
-table thead tr>th:nth-last-child(18),
-table tbody tr>td:nth-last-child(18) {
+.red {
   color : rgb(247,0,85);
 }
 
@@ -136,4 +130,40 @@ footer p {
     font-family: georgia;
     background-color: gray;
     padding: 5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.red:visited {
+  color : rgb(247,0,85);
+}
+
+.lightblue:visited {
+  color : rgb(147,241,223);
+}
+
+.blue:visited {
+  color: rgb(0,143,190);
+}
+
+.green:visited {
+  color : rgb(111,109,77);
+}
+
+.brick:visited {
+  color : rgb(194,109,77);
+}
+
+.white:visited {
+  color : white;
+}
+
+.purple:visited {
+  color: rgb(183,123,226);
+}
+
+div:hover {
+  font-size: 30px;
 }
